@@ -24,3 +24,21 @@
 	font-size: 32px;
 	line-height: 150%
 }
+
+#retangulo{
+	position: absolute;
+	width: 340px;
+	height: 944px;
+	left: 1000px;
+	top: 40px;
+	background: #FFFFFF;
+	box-shadow: 0 24px 32px 8px rgba(0, 0, 0, 0.18);
+	border-radius: 32px;
+}
+
+img{
+	position: absolute;
+	width: 300px;
+	left: 22px;
+	top: 83px;
+}
