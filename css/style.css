@@ -1,1 +1,26 @@
 
+.logo{
+	position: static;
+	width: 120px;
+	height: 48px;
+	left: 0;
+	top: 0;
+	margin: 40px 0 ;
+}
+#caixa-teste{
+	text-align: left;
+	border: none;
+	box-shadow: 0;
+	outline: 0;
+	color: #0A3871;
+	position: absolute;
+	width: 680px;
+	height: 48px;
+	left: 240px;
+	top: 168px;
+	font-family: "inter";
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 32px;
+	line-height: 150%
+}
