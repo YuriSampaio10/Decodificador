@@ -50,3 +50,54 @@ div h4{
 .aviso{
 margin: 807px -7px 16px 240px;
 }
+
+.botoes{
+	margin: 0 0 72px 240px;
+	border-radius: 30px;
+	align-items: center;
+}
+
+#criptografar{
+	position: static;
+	width: 280px;
+	height: auto;
+	left: 24px;
+	top: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	background: #0A3871;
+	border-radius: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 0px 8px;
+	color: #FFFFFF;
+	padding: 24px;
+}
+
+#desencriptografar{	
+	position: static;
+	width: 280px;
+	height: auto;
+	left: 24px;
+	top: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	background: #D8DFE8;
+	border-radius: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 0px 8px;
+	color: #0A3871;
+	padding: 24px;
+	margin: 0 17px 26px 31px;
+}
