@@ -4,24 +4,22 @@ function myFunction() {
   }
 
 //criptografar
-  var capturaTexto = document.querySelector("#criptografar"); // obtem o botão do html
-  capturaTexto.addEventListener("click", function(){ // escuta o click e aplica a função
-  	var textoDigitado = obtemTextoDigitado();
+  var encriptar = document.querySelector("#criptografar"); // obtem o botão do html
+  encriptar.addEventListener("click", function(){ // escuta o click e aplica a função
+  	var encriptado = obtemTextoDigitadoECriptografa();
   	var paragrafo = criaParagrafo();
-  	var adiciona = adicionaAoRetangulo(paragrafo, textoDigitado);
+  	var adiciona = adicionaAoRetangulo(paragrafo, encriptado);
+  	
   	var reseta = resetaTexto();
-  	
-
-  	
-console.log(textoDigitado);
-console.log(paragrafo);
-console.log(adiciona);
-
   })
 
-  function obtemTextoDigitado(){
+  function obtemTextoDigitadoECriptografa(){
   	caixaTexto = document.getElementById("caixa-teste").value;
-  	return caixaTexto;
+  	novaCaixa = caixaTexto.replaceAll("a", "ai");
+  	novaCaixa2 = novaCaixa.replaceAll("e", "enter");
+  	novaCaixa3 = novaCaixa2.replaceAll("o", "ober");
+  	novaCaixa4 = novaCaixa3.replaceAll("u", "ufat");
+  	return novaCaixa4;
   }
 
   function resetaTexto(){
@@ -34,9 +32,9 @@ console.log(adiciona);
   	return textoP
   }
 
-  function adicionaAoRetangulo(paragrafo, textoDigitado){
+  function adicionaAoRetangulo(paragrafo, encriptado){
   	var adicionaParagrafo = document.querySelector("#retangulo");
-  	paragrafo.textContent = textoDigitado;
+  	paragrafo.textContent = encriptado;
   	adicionaParagrafo.appendChild(paragrafo);
   	return adicionaParagrafo;
   }
