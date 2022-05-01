@@ -7,9 +7,9 @@ function myFunction() {
   var capturaTexto = document.querySelector("#criptografar"); // obtem o botão do html
   capturaTexto.addEventListener("click", function(){ // escuta o click e aplica a função
   	var textoDigitado = obtemTextoDigitado();
-  	var reseta = resetaTexto();
   	var paragrafo = criaParagrafo();
-  	var adiciona = adicionaAoRetangulo(paragrafo);
+  	var adiciona = adicionaAoRetangulo(paragrafo, textoDigitado);
+  	var reseta = resetaTexto();
   	
 
   	
@@ -34,8 +34,9 @@ console.log(adiciona);
   	return textoP
   }
 
-  function adicionaAoRetangulo(paragrafo){
+  function adicionaAoRetangulo(paragrafo, textoDigitado){
   	var adicionaParagrafo = document.querySelector("#retangulo");
+  	paragrafo.textContent = textoDigitado;
   	adicionaParagrafo.appendChild(paragrafo);
   	return adicionaParagrafo;
   }
