@@ -1,3 +1,5 @@
+var input = document.querySelector("#textoOutput");
+
 //faz a foto que está dentro do retangulo e o texto sair do display
 function myFunction() {
   document.getElementById("foto").style.display = "none";
@@ -7,19 +9,25 @@ function myFunction() {
 var encriptar = document.querySelector("#criptografar"); // obtem o botão do html
 encriptar.addEventListener("click", function(){ // escuta o click e aplica a função
   var encriptado = obtemTextoDigitadoECriptografa();
-  var paragrafo = criaParagrafo();
-  var adiciona = adicionaAoRetangulo(paragrafo, encriptado);
+  var adiciona = adicionaAoRetangulo(input, encriptado);
   var reseta = resetaTexto();
 })
 
 //desencriptografar
 var desencriptar = document.querySelector("#desencriptografar");
-desencriptar,addEventListener("click", function(){
+desencriptar.addEventListener("click", function(){
   var desencriptado = obtemTextoDigitadoEDesencriptografa();
-  var paragrafo = criaParagrafo();
-  var adiciona = adicionaAoRetangulo(paragrafo, desencriptado);
+  var adiciona = adicionaAoRetangulo(input, desencriptado);
   var reseta = resetaTexto();
 })
+
+
+
+function copiaInput() {
+  var copiaTexto = document.getElementById("input")
+  adicionaValor.textContent = copiaTexto;
+  return adicionaValor;
+}
 
 function obtemTextoDigitadoECriptografa(){
   caixaTexto = document.getElementById("caixa-teste").value;
@@ -30,16 +38,12 @@ function obtemTextoDigitadoECriptografa(){
   return novaCaixa4;
 }
 
-function criaParagrafo(){
-  var textoP = document.createElement("p"); 
-  return textoP
-}
 
-function adicionaAoRetangulo(paragrafo, encriptado){
-  var adicionaParagrafo = document.querySelector("#retangulo");
-  paragrafo.textContent = encriptado;
-  adicionaParagrafo.appendChild(paragrafo);
-  return adicionaParagrafo;
+function adicionaAoRetangulo(input, encriptado){
+  var adicionaInput = document.querySelector("#retangulo");
+  input.textContent = encriptado;
+  adicionaInput.appendChild(input);
+  return adicionaInput;
 }
 
 function resetaTexto(){
@@ -55,7 +59,3 @@ function obtemTextoDigitadoEDesencriptografa(){
   novaCaixa4 = novaCaixa3.replaceAll("ufat", "u");
   return novaCaixa4;
 }
-
- 
-
-  
