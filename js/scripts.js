@@ -4,6 +4,9 @@ caixaTexto = document.getElementById("caixa-teste");
 //inicia com o cursor no campo de digitação
 caixaTexto.focus();
 
+//esta regex aceita somente letras minúsculas e sem acento, inclusive escritos em múltiplas linhas.
+var regex = /^[a-z\s]+$/;
+
 //faz a foto que está dentro do retangulo e o texto sair do display
 function myFunction() {
 	caixaTexto = document.getElementById("caixa-teste").value;
@@ -45,6 +48,12 @@ function obtemTextoDigitadoECriptografa(){
   caixaTexto = document.getElementById("caixa-teste").value;
   if (!caixaTexto) {
   	alert("Digite uma mensagem para ser criptografada.");  
+  }
+  else if(!regex.test(caixaTexto)){
+    alert('Utilize somente letras minúsculas e sem acentos.');
+    caixaTexto.value = '';
+    caixaTexto.focus();
+    return;  
   }
   else{
   	 mensagem = caixaTexto.replaceAll('e', 'enter');
