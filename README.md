@@ -6,8 +6,7 @@ ___
 [ <div align="center"> ![Capa](img/banner.gif)](https://github.com/euclides981/criptografia#readme) </div>
 
 [<div align="center">![Olá Mundo](https://shields.io/badge/Olá-Mundo-blue)](https://github.com/YuriSampaio10/Decodificador#readme)
-[![Status](https://shields.io/badge/STATUS-V%200.2%20Em%20Andamento-green)](https://github.com/YuriSampaio10/Decodificador#readme) 
-(https://github.com/euclides981/criptografia#readme) 
+[![Status](https://shields.io/badge/STATUS-V%200.2%20Em%20Andamento-green)](https://github.com/YuriSampaio10/Decodificador#readme)  
 [![View Deployment](https://shields.io/badge/View-Deployment-yellow.svg)](https://yurisampaio10.github.io/Decodificador) </div>
 ___
 ### :black_nib: Descrição:
