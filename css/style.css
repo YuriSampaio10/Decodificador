@@ -1,179 +1,175 @@
 
-.logo{
-	position: static;
-	width: 120px;
-	height: 48px;
-	left: 0;
-	top: 0;
-	margin: 40px 0 ;
+.logotipo{
+	posição: estática;
+	largura: 120px;
+	altura: 48px;
+	esquerda: 0;
+	topo: 0;
+	margem: 40px 0 ;
 }
 #caixa-teste{
-	text-align: left;
-	border: none;
-	box-shadow: 0;
-	outline: 0;
-	color: #0A3871;
-	position: absolute;
-	width: 680px;
-	height: 48px;
-	left: 240px;
-	top: 168px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 400px;
-	font-size: 32px;
-	line-height: 150%
+	alinhamento de texto: esquerda;
+	borda: nenhuma;
+	caixa-sombra: 0;
+	contorno: 0;
+	cor: #0A3871;
+	posição: absoluta;
+	largura: 680px;
+	altura: 48px;
+	esquerda: 240px;
+	topo: 168px;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 400px;
+	tamanho da fonte: 32px;
+	altura da linha: 150%
 }
 
 #retangulo{
-	position: absolute;
-	width: 330px;
-	height: 980px;
-	left: 1000px;
-	top: 40px;
-	background: #FFFFFF;
-	box-shadow: 0 24px 32px 8px rgba(0, 0, 0, 0.18);
-	border-radius: 32px;
+	posição: absoluta;
+	largura: 330px;
+	altura: 980px;
+	esquerda: 1000px;
+	topo: 40px;
+	fundo: #FFFFFF;
+	box-shadow: 0 24px 32px 8px rgba(0, 0, 0, 0,18);
+	raio da borda: 32px;
 }
 
-#input{
-	background: red;
-	border: none;
-	box-shadow: 0;
-	outline: 0;
-	position: all;
-	text-align: left;
-	margin: 20px 20px 0 20px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 200px;
-	font-size: 22px;
-	line-height: 100%;
-	word-wrap: break-word;
+#entrada{
+	fundo: vermelho;
+	borda: nenhuma;
+	caixa-sombra: 0;
+	contorno: 0;
+	posição: todos;
+	alinhamento de texto: esquerda;
+	margem: 20px 20px 0 20px;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 200px;
+	tamanho da fonte: 22px;
+	altura da linha: 100%;
+	quebra-palavra: quebra-palavra;
 }
 
-#textoOutput{
-	border: none;
-	position: absolute;
-    text-align: left;
-	box-shadow: 0;
-	outline: 0;
-	color: #0A3871;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 200px;
-	font-size: 32px;
-	padding: 20px;
+#textoSaída{
+	borda: nenhuma;
+	posição: absoluta;
+    alinhamento de texto: esquerda;
+	caixa-sombra: 0;
+	contorno: 0;
+	cor: #0A3871;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 200px;
+	tamanho da fonte: 32px;
+	preenchimento: 20px;
 }
 
 
 #foto{
-	position: absolute;
-	width: 330px;
-	height: 980px;
-	left: 1000px;
-	top: 40px;
+	posição: absoluta;
+	largura: 330px;
+	altura: 980px;
+	esquerda: 1000px;
+	topo: 40px;
 }
 
 #copiar{
-	position: absolute;
-	width: 280px;
-	left: 30px;
-	top: 10px
-	height: auto;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	font-size: 25px;
-	line-height: 19px;
-	text-align: center;
-	background: #D8DFE8;
-	border-radius: 24px;
-	flex: none;
-	order: 0;
-	flex-grow: 1;
-	color: #0A3871;
-	padding: 24px;
-	bottom: 27px;
+	posição: absoluta;
+	largura: 280px;
+	esquerda: 30px;
+	superior: 10px
+	altura: automático;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 200;
+	tamanho da fonte: 25px;
+	altura da linha: 19px;
+	alinhamento de texto: centro;
+	fundo: #D8DFE8;
+	raio da borda: 24px;
+	flexível: nenhum;
+	ordem: 0;
+	flex-crescimento: 1;
+	cor: #0A3871;
+	preenchimento: 24px;
+	inferior: 27px;
 }
 
 div h4{
-	margin: 100 0 0 0;
+	margem: 100 0 0 0;
 }
 
 .aviso{
-	margin: 807px -7px 16px 240px;
+	margem: 807px -7px 16px 240px;
 }
 
 .botoes{
-	margin: 0 0 72px 240px;
-	border-radius: 30px;
-	align-items: center;
+	margem: 0 0 72px 240px;
+	raio da borda: 30px;
+	alinhar-itens: centro;
 }
 
 #criptografar{
-	position: static;
-	width: 280px;
-	height: auto;
-	left: 24px;
-	top: 24px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 25px;
-	line-height: 19px;
-	text-align: center;
-	background: #0A3871;
-	border-radius: 24px;
-	flex: none;
-	order: 0;
-	flex-grow: 1;
-	margin: 0px 8px;
-	color: #FFFFFF;
-	padding: 24px;
+	posição: estática;
+	largura: 280px;
+	altura: automático;
+	esquerda: 24px;
+	topo: 24px;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 400;
+	tamanho da fonte: 25px;
+	altura da linha: 19px;
+	alinhamento de texto: centro;
+	fundo: #0A3871;
+	raio da borda: 24px;
+	flexível: nenhum;
+	ordem: 0;
+	flex-crescimento: 1;
+	margem: 0px 8px;
+	cor: #FFFFFF;
+	preenchimento: 24px;
 }
 
-#desencriptografar{	
-	position: static;
-	width: 280px;
-	height: auto;
-	left: 24px;
-	top: 24px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 25px;
-	line-height: 19px;
-	text-align: center;
-	background: #D8DFE8;
-	border-radius: 24px;
-	flex: none;
-	order: 0;
-	flex-grow: 1;
-	margin: 0px 8px;
-	color: #0A3871;
-	padding: 24px;
-	margin: 0 17px 26px 31px;
+#desencriptador{	
+	posição: estática;
+	largura: 280px;
+	altura: automático;
+	esquerda: 24px;
+	topo: 24px;
+	família de fontes: 'Montserrat', sem serifa;
+	estilo de fonte: normal;
+	peso da fonte: 400;
+	tamanho da fonte: 25px;
+	altura da linha: 19px;
+	alinhamento de texto: centro;
+	fundo: #D8DFE8;
+	raio da borda: 24px;
+	flexível: nenhum;
+	ordem: 0;
+	flex-crescimento: 1;
+	margem: 0px 8px;
+	cor: #0A3871;
+	preenchimento: 24px;
+	margem: 0 17px 26px 31px;
 }
 
-.copyright{
-	text-align: center;
-	margin: 10px;
-	font-size: 20px;
+.direito autoral{
+	alinhamento de texto: centro;
+	margem: 10px;
+	tamanho da fonte: 20px;
 }
 
-@media screen and (max-width: 380px) { 
-    .footer, .caixa  {
-        width: auto;
-        margin-top: 0px;
+@media tela e (largura máxima: 480px) {
+    .rodapé {
+        largura: automático;
+        margem superior: 0px;
         
     }
 
     h4{
-    	text-align: right;
-    }
-
-    .copyright{
-    	text-align: center;
+    	text-align: direita;
     }
 }
