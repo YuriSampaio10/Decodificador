@@ -23,7 +23,7 @@ Este é um sistema de codificação de palavras que transforma as vogais em pala
 ___
 ###  <div align="center">:computer: A seguir apresento a prévia do projeto.:computer:</div>
 
-[![Prévia do Projeto](img/previa.png)](https://github.com/euclides981/criptografia#readme)
+[![Prévia do Projeto](img/telaPC.png)](https://github.com/YuriSampaio10/Decodificador#readme)
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
