@@ -40,7 +40,7 @@ ___
 [![Repositório](https://shields.io/badge/Repositório-Criptografia-yellow)](https://github.com/YuriSampaio10/Decodificador)
 [![Perfil GitHub](https://shields.io/badge/Perfil-GitHub-blue)](https://github.com/YuriSampaio10/)
 [![Linkedin](https://shields.io/badge/Linkedin-Yuri-brown)](https://www.linkedin.com/in/yuri-nogueira-sampaio-desenvolvedor-mobile/)
-[![Portifólio](https://shields.io/badge/Portifólio-Yuri-aqua)](https://yurisampaio10.github.io/Decodificador)</div>
+[![Portifólio](https://shields.io/badge/Portifólio-Yuri-aqua)](https://github.com/YuriSampaio10?tab=repositories)</div>
 ___
 
 ### <div align="center">:star::star::star:</div> 
