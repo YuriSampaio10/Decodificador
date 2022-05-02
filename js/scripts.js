@@ -1,5 +1,8 @@
 var input = document.querySelector("#textoOutput");
-caixaTexto = document.getElementById("caixa-teste").value;
+caixaTexto = document.getElementById("caixa-teste");
+
+//inicia com o cursor no campo de digitação
+caixaTexto.focus();
 
 //faz a foto que está dentro do retangulo e o texto sair do display
 function myFunction() {
@@ -7,8 +10,6 @@ function myFunction() {
 	if (caixaTexto) {
 		document.getElementById("foto").style.display = "none";
 }};
-
-
 
 //criptografar
 var encriptar = document.querySelector("#criptografar"); // obtem o botão do html
@@ -46,12 +47,12 @@ function obtemTextoDigitadoECriptografa(){
   	alert("Digite uma mensagem para ser criptografada.");  
   }
   else{
-  	novaCaixa = caixaTexto.replaceAll("a", "ai");
-  	novaCaixa2 = novaCaixa.replaceAll("e", "enter");
-  	novaCaixa3 = novaCaixa2.replaceAll("o", "ober");
-  	novaCaixa4 = novaCaixa3.replaceAll("u", "ufat");
-  	novaCaixa4 = novaCaixa3.replaceAll("i", "imea");
-  	return novaCaixa4;
+  	 mensagem = caixaTexto.replaceAll('e', 'enter');
+     mensagem = mensagem.replaceAll('i', 'imes');
+     mensagem = mensagem.replaceAll('a', 'ai');
+     mensagem = mensagem.replaceAll('o', 'ober');
+     mensagem = mensagem.replaceAll('u', 'ufat');
+  	 return mensagem;
 }};
 
 
@@ -73,11 +74,11 @@ function obtemTextoDigitadoEDesencriptografa(){
   	alert("Digite uma mensagem para ser descriptografada.");  
   }
   else{
-  novaCaixa = caixaTexto.replaceAll("ai", "a");
-  novaCaixa2 = novaCaixa.replaceAll("enter", "e");
-  novaCaixa3 = novaCaixa2.replaceAll("ober", "o");
-  novaCaixa4 = novaCaixa3.replaceAll("ufat", "u");
-  novaCaixa4 = novaCaixa3.replaceAll("imea", "i");
-  return novaCaixa4;
+    mensagemSaida = caixaTexto.replaceAll('enter', 'e');
+    mensagemSaida = mensagemSaida.replaceAll('imes', 'i');
+    mensagemSaida = mensagemSaida.replaceAll('ai', 'a');
+    mensagemSaida = mensagemSaida.replaceAll('ober', 'o');
+    mensagemSaida = mensagemSaida.replaceAll('ufat', 'u');
+    return mensagemSaida;
 }};
 
