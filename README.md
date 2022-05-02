@@ -13,7 +13,7 @@ ___
 
 Este é um sistema de codificação de palavras que transforma as vogais em palavras:
 
-### :arrows_counterclockwise: Exemplo de como as trocas são feitas:
+### 🔽: Exemplo de como as trocas são feitas:
 
 - `Vogal a: `Transforma em : ai
 - `Vogal e: `Transforma em : enter
