@@ -161,3 +161,15 @@ div h4{
 	margin: 10px;
 	font-size: 20px;
 }
+
+@media screen and (max-width: 480px) { 
+    .footer  {
+        width: auto;
+        margin-top: 0px;
+        
+    }
+
+    h4{
+    	text-align: right;
+    }
+}
