@@ -69,10 +69,10 @@
 
 #foto{
 	position: absolute;
+	width: 330px;
 	height: 980px;
-	width: 300px;
-	left: 15px;
-	top: 0px;
+	left: 1000px;
+	top: 40px;
 }
 
 #copiar{
