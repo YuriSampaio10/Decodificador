@@ -38,6 +38,7 @@ copiar.addEventListener('click', function(){
   alert('Mensagem copiada para a área de transferência.')
 });
 
+//funções
 function copiaInput() {
   var copiaTexto = document.getElementById("input")
   adicionaValor.textContent = copiaTexto;
