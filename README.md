@@ -39,8 +39,8 @@ ___
 [<div align="center">![Release](https://shields.io/badge/Release-v0.1-green)](https://github.com/YuriSampaio10/Decodificador/releases/tag/v0.1.0)
 [![Repositório](https://shields.io/badge/Repositório-Criptografia-yellow)](https://github.com/YuriSampaio10/Decodificador)
 [![Perfil GitHub](https://shields.io/badge/Perfil-GitHub-blue)](https://github.com/YuriSampaio10/)
-[![Linkedin](https://shields.io/badge/Linkedin-Euclides-brown)](https://www.linkedin.com/in/yuri-nogueira-sampaio-desenvolvedor-mobile/)
-[![Portifólio](https://shields.io/badge/Portifólio-Euclides-aqua)](https://yurisampaio10.github.io/Decodificador)</div>
+[![Linkedin](https://shields.io/badge/Linkedin-Yuri-brown)](https://www.linkedin.com/in/yuri-nogueira-sampaio-desenvolvedor-mobile/)
+[![Portifólio](https://shields.io/badge/Portifólio-Yuri-aqua)](https://yurisampaio10.github.io/Decodificador)</div>
 ___
 
 ### <div align="center">:star::star::star:</div> 
