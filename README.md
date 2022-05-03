@@ -28,9 +28,10 @@ ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
 <div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="https://j.gifs.com/GRxYk5.gif" width="380" alt="Prévia Do Sistema Funcionando"></a></div>
-___
-###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
+
+___ 
+###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
 [![Prévia do Projeto](https://j.gifs.com/NOjEg2.gif)](https://github.com/YuriSampaio10/Decodificador#readme)
 ___
