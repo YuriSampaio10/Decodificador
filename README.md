@@ -27,11 +27,11 @@ ___
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
-[![Prévia do Projeto](img/previa_mobile.png)](https://github.com/euclides981/criptografia#readme)
+[![Prévia do Projeto](img/telaMobile_gif_AdobeCreativeCloudExpress.gif)](https://github.com/YuriSampaio10/Decodificador#readme)
 ___
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
-<div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="img/telaMobile.gif.mp4" width="280" alt="Prévia Do Sistema Funcionando"></a></div>
+<div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="img/paginaPC_gif_AdobeCreativeCloudExpress.gif" width="280" alt="Prévia Do Sistema Funcionando"></a></div>
 
 ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
