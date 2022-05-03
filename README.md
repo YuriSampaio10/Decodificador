@@ -37,7 +37,7 @@ ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
 
 [<div align="center">![Release](https://shields.io/badge/Release-v0.1.1-green)](https://github.com/YuriSampaio10/Decodificador/releases/tag/v0.1.1)
-[![Repositório](https://shields.io/badge/Repositório-Criptografia-yellow)](https://github.com/YuriSampaio10/Decodificador)
+[![Repositório](https://shields.io/badge/Repositório-Decodificador-yellow)](https://github.com/YuriSampaio10/Decodificador)
 [![Perfil GitHub](https://shields.io/badge/Perfil-GitHub-blue)](https://github.com/YuriSampaio10/)
 [![Linkedin](https://shields.io/badge/Linkedin-Yuri-brown)](https://www.linkedin.com/in/yuri-nogueira-sampaio-desenvolvedor-mobile/)
 [![Portifólio](https://shields.io/badge/Portifólio-Yuri-aqua)](https://github.com/YuriSampaio10?tab=repositories)</div>
