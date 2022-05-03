@@ -76,10 +76,6 @@ function adicionaAoRetangulo(input, encriptado){
   return adicionaInput;
 };
 
-function resetaTexto(){
-  var reseta = document.getElementById("caixa-teste").value = ""; 
-  return reseta;
-};
 
 function obtemTextoDigitadoEDesencriptografa(){
   caixaTexto = document.getElementById("caixa-teste");
@@ -95,3 +91,9 @@ function obtemTextoDigitadoEDesencriptografa(){
     mensagemSaida = mensagemSaida.replaceAll('ufat', 'u');
     return mensagemSaida;
 }};
+
+
+function resetaTexto(){
+  var reseta = document.getElementById("caixa-teste").value = ""; 
+  return reseta;
+};
