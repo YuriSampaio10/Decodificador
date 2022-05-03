@@ -3,7 +3,7 @@
 ### <div align="center">:green_circle: Projeto Proposto no Programa ONE - Oracle & Alura! :green_circle:</div>
 ___
 
-[ <div align="center"> ![Capa](img/banner.gif)](https://github.com/euclides981/criptografia#readme) </div>
+[ <div align="center"> ![Capa](img/logo.png)](https://github.com/YuriSampaio/Decodificador#readme) </div>
 
 [<div align="center">![Olá Mundo](https://shields.io/badge/Olá-Mundo-blue)](https://github.com/YuriSampaio10/Decodificador#readme)
 [![Status](https://shields.io/badge/STATUS-V%200.2%20Em%20Andamento-green)](https://github.com/YuriSampaio10/Decodificador#readme)  
@@ -27,12 +27,12 @@ ___
 ___
 ###  <div align="center">:iphone: Uma Prévia em dispositivos menores.:iphone:</div>
 
-[![Prévia do Projeto](img/telaMobile_gif_AdobeCreativeCloudExpress.gif)](https://github.com/YuriSampaio10/Decodificador#readme)
+<div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="https://j.gifs.com/GRxYk5.gif" width="380" alt="Prévia Do Sistema Funcionando"></a></div>
 ___
 ###  <div align="center">:on: Uma prévia do sistema em funcionamento.:on:</div>
 
-<div align="center"><a href="https://github.com/YuriSampaio10/Decodificador#readme"><img src="img/paginaPC_gif_AdobeCreativeCloudExpress.gif" width="280" alt="Prévia Do Sistema Funcionando"></a></div>
 
+[![Prévia do Projeto](https://j.gifs.com/NOjEg2.gif)](https://github.com/YuriSampaio10/Decodificador#readme)
 ___
 ### <div align="center">:heavy_check_mark: Links Uteis</div>
 
