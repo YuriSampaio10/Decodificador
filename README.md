@@ -1,4 +1,4 @@
-# <div align="center">:lock: ENCRIPTADOR :old_key::unlock:</div>
+# <div align="center">:lock: DECODIFICADOR :old_key::unlock:</div>
  
 ### <div align="center">:green_circle: Projeto Proposto no Programa ONE - Oracle & Alura! :green_circle:</div>
 ___
