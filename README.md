@@ -1,6 +1,6 @@
-# <div align="center">:lock: DECODIFICADOR :old_key::unlock:</div>
+# <div align="center"><h1>:lock: DECODIFICADOR :old_key::unlock:</h1></div>
  
-### <div align="center">:green_circle: Projeto Proposto no Programa ONE - Oracle & Alura! :green_circle:</div>
+### <div align="center"><h2>:green_circle: Projeto Proposto no Programa ONE - Oracle & Alura! :green_circle:</h2></div>
 ___
 
 [ <div align="center"> ![Capa](img/logo.png)](https://github.com/YuriSampaio/Decodificador#readme) </div>
@@ -21,6 +21,8 @@ Este é um sistema de codificação de palavras que transforma as vogais em pala
 - `Vogal o: `Transforma em : ober
 - `Vogal u: `Transforma em : ufat
 
+
+___
 ### ✅ Técnicas e tecnologias utilizadas
  
  <div style="display: inline_block" align="center"><br>
